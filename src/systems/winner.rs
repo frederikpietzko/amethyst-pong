@@ -3,7 +3,7 @@ use amethyst::{
     audio::{output::Output, Source},
     core::transform::Transform,
     derive::SystemDesc,
-    ecs::{Join, Read, ReadExpect, ReadStorage, System, SystemData, Write, WriteStorage},
+    ecs::{Join, Read, ReadExpect, System, SystemData, Write, WriteStorage},
     ui::UiText,
 };
 
