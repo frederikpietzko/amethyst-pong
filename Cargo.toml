@@ -1,0 +1,15 @@
+[package]
+name = "amethyst-pong"
+version = "0.1.0"
+authors = ["Frederik Pietzko"]
+edition = "2018"
+
+[dependencies]
+amethyst = {version = "0.15.2", features = ["no-slow-safety-checks"]}
+log = { version = "0.4.8", features = ["serde"] }
+
+[features]
+default = ["vulkan"]
+empty = ["amethyst/empty"]
+metal = ["amethyst/metal"]
+vulkan = ["amethyst/vulkan"]
